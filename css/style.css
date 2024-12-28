@@ -1,0 +1,403 @@
+/*Esto es un comentario en CSS*/
+/*Hoja de estilos*/
+
+*{
+  margin: 15px;
+  padding: 5px;
+  background-color: #f6ddcc;
+  font-family: verdana;
+  
+  /*box-sizing: border-box;*/
+  flex-flow: row wrap;
+  /**/
+
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  /**/
+}
+
+#fondo_principal{
+ background-color: #f9e79f;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.sour-gummy-<uniquifier> {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+  margin: 0 auto;
+  text-align: center;
+  font:85% verdana,geneva,arial;
+  line-height: 1.4em;
+  /*color:#303030;*/
+  background: #888888;
+  
+  font-size: 14px;
+  /*background-color: rgb(200,200,240);*/
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  padding: 10px;
+
+}
+
+
+h1{
+  color:blueviolet !important;
+  background-color: #E5E8E8;
+  text-align: center;
+  
+  font-size: 2em; /* 32 px, porque 2*16px=32ppx*/
+  font-family: cursive;
+  text-transform: uppercase;
+  
+}
+
+h2{
+ color:blue;
+ font-weight: bold;
+ font-size: 40 pt;
+ font-family: cursive;
+ text-transform: capitalize;
+ 
+}
+
+h3{
+ color:blueviolet;
+ }
+ 
+h4{
+ color:black;
+ 
+ border-color: 1px;
+}
+ 
+p{
+ color:black;
+ font-size: italic;
+ font-size: 130%;
+ 
+ font-size: 10 pt;
+ text-decoration: underline;
+}
+
+#primerh2{
+ color:blueviolet;
+ width: 183px;
+ margin: 0 auto;
+ text-align: left;
+ border: 1px #ffffff dotted;
+}
+
+.cajas{
+ color:blueviolet;
+ /*font-size:20px;*/
+ /*width:20px;*/
+ /*height:20px;*/
+ background-color:aliceblue;
+ /* display:flex;*/
+  /*flex-direction: row;*/
+  /*align-items: center;*/
+}
+
+.catalogo{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ /*color: #ffffff;
+ font-size: 13px;
+ border: 1px solid #ffffff;
+ padding: 2px 2px 2px 2px;
+ background: #c0c0c0; 
+ padding: 0.5rem 1rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;*/
+ display: grid;
+ flex-flow: row wrap;
+ padding: 20px;
+}
+
+.categoria{
+  margin-left:10px;
+  color: white;
+  background-color: fuchsia;
+ 
+  
+}
+#frase{
+ color:black;
+ background-color:violet;
+ text-align: center;
+ margin-left:10px;
+}
+
+.frases{
+/*Estilos aqui*/
+ display:grid;
+ grid-template-columns: 200px 300px 200px;
+ grid-template-rows: 100px;
+ width: 180px;
+ height:90px;
+ float: none;
+ position: relative;
+ margin: 0 auto;
+ justify-content: center;
+ grid-gap:10px;
+ justify-content: flex-start;
+ align-items:center;
+ color:black;
+ background-color: #E8B0AA;
+ padding:100px;
+ border: 5px solid #ccc;
+ border-radius:5px;
+ box-shadow:0 0 10px rgba(0,0,0,0,2);
+ flex-wrap: wrap;
+ justify-content: space-between;
+ gap: 10px;
+ border: 1px solid;
+ /*box-sizing: border-box;
+ opacity: .9;
+ height: 50px;
+ display: flex;*/
+}
+
+#recomendacion{
+ color:black;
+ background-color:violet;
+ text-align: center;
+ margin-left:10px;
+}
+
+#adicional{
+flex-flow: row wrap;
+ width: 560px;
+ margin: 0 auto;
+ text-align: center;
+ /*border: 0px #ffffff dotted;*/
+ font-size: 19px;
+ border: 0px solid;
+ border-style: solid;
+ color: #4A235A;
+ background-color: #EBDEF0;
+ 
+ /*display: flex;*/
+ 
+}
+
+/*div{
+ margin:0 auto;
+  display:block;
+  width: 500px;
+  height: 500px;
+  padding: 100px;
+  border: 20px solid blueviolet;
+  background-color: yellow; 
+}*/
+
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+
+.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+
+.header{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 200px;
+ height: 100px;
+ margin: 20px;
+ padding: auto;
+ background-color: transparent;
+ 
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+ border-bottom: 0px solid #333;
+ box-shadow: 0 0 10px rgba(0,0,0,0,2);
+ 
+ display:grid;
+ flex-flow: row wrap;
+}
+
+.header img{
+ width: 50%;
+ height: auto;
+}
+
+
+.footer{
+ padding:20px;
+}
+ul,ol{
+ text-decoration: none;
+ list-style:none;
+ width:100 %;
+ height: 50 vh;
+}
+
+ol a , ul a{
+ color: #000000;
+ font-weight: 300;
+ 
+}
+
+#contacto{
+ color: rgb(255,99,71); /*tomate*/
+ background-color: rgba(255,125,0,0.5);
+ border: 1px solid pink;
+}
+
+.diez{
+ /*color:rgba(255,99,71,0.5);*/
+ color: #6E2C00;
+ background-image: url(J4o.gif);
+}
+
+nav{
+ background-color: #808B96;
+ 
+}
+
+.nav-list{
+ /*background-color:#CCD1D1;*/
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ flex-flow: row wrap;
+}
+.nav_dos{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ flex-flow: row wrap;
+}
+
+a{
+ color: #3399cc;
+ text-decoration: none;
+ /*background-color: #D7BDE2;*/
+ text-align: center;
+}
+
+#registro{
+ /*background-color: rgb(220,220,240);*/
+ background-color: rgb(100%,50%,50%);
+ border: 1px solid red;
+}
+
+#consejo{
+ color: #0B5345;
+ font-size: 1rem;
+ /*background-image: url("img/pexels_ari.jpg);*/
+}
+
+span{
+ font-family: 'times new roman', times, serif;
+ font-weight: border;
+}
+
+li{
+ font-style: normal;
+ line-height:24px;
+ text-decoration: none;
+ margin-right: 20px;
+ display:flex;
+ display: grid;
+ flex-flow: row wrap;
+ /**/
+ border: 2px solid #4A235A;
+ padding: 0px;
+ margin: 5px;
+}
+
+.clase_contacto{
+ border: none;
+}
+@media (max-width: 600px){
+   .clase_contacto{background: red;}
+}
+
+@media (max-width: 768px){
+  .clase_contacto{
+    margin: 20px auto;
+    padding: 10px;
+  }
+  form{
+    flex-direction: column;
+  }
+  label{
+    margin-bottom: 5px;
+  }
+  input, textarea{
+    margin-bottom: 10px;
+  }
+  button{
+    padding: 5px 10px;
+  }
+}
+
+img{
+ /*float:left;
+  /*float: right;*/
+  /*float: none;*/
+}
+
+ul{
+ display:flex;
+ list-style:none;
+ margin: 0;
+ padding: 0;
+}
+
+.estructura_frase{
+ display: grid;
+ display: flex;
+ border-radius: 10px;
+ 
+ flex-flow: row wrap;
+ /*border: 4px solid ff000;
+ width: 250px;
+ height: 500px;
+ box-sizing: border-box;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ gap: 16px;*/
+}
+
+.bi-cart{
+ width:500%;
+ height: 50000 vh;
+
+}
